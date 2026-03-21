@@ -1,4 +1,4 @@
-display_frames = 10
+display_frames = 15
 hsp = 0
 vsp = 0
 
