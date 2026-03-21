@@ -1,0 +1,1 @@
+draw_text(200, 320, "ARM ANGLE: " + string(point_dir))

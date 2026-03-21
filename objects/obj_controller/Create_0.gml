@@ -1,0 +1,2 @@
+arm_arr = ["Lasso", "Gun"] // all the different arms the player can have (PURELY VISUAL)
+global.cur_display_arm = arm_arr[0] // the arm that is currently being displayed
