@@ -50,3 +50,11 @@ if(obj_player.x > mouse_x + 20)
 	
 draw_sprite_ext(cur_sprite, 0, _x, _y, image_xscale, image_yscale, _point_dir, c_white, 1)
 }
+*/
+
+
+var _x = obj_player.x 
+var _y = obj_player.y - 12
+
+x = _x
+y = _y

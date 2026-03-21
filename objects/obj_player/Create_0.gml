@@ -1,6 +1,7 @@
 
 
 instance_create_layer(x, y, "PlayerLayer", obj_player_arm)
+instance_create_layer(x, y, "PlayerLayer", obj_aim)
 
 anim_direction = 1;
 
@@ -40,9 +41,9 @@ anim_dir = 1 // direction facing
 
 
 
-vsp_jump = -6.5; // -6
+vsp_jump = -7.5; // -6
 vsp_max = 10;
-vsp_wjump = -5;
+vsp_wjump = -6;
 jump_frames = 0
 jump_frame_max = 15
 vsp_max_wall = 4;
