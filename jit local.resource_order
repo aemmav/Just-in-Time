@@ -1,0 +1,28 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Objects","order":3,"path":"folders/Objects.yy",},
+    {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
+    {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
+    {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_aim","order":9,"path":"objects/obj_aim/obj_aim.yy",},
+    {"name":"obj_bullet","order":7,"path":"objects/obj_bullet/obj_bullet.yy",},
+    {"name":"obj_controller","order":4,"path":"objects/obj_controller/obj_controller.yy",},
+    {"name":"obj_gun_effect","order":8,"path":"objects/obj_gun_effect/obj_gun_effect.yy",},
+    {"name":"obj_hookpoint","order":2,"path":"objects/obj_hookpoint/obj_hookpoint.yy",},
+    {"name":"obj_lasso","order":3,"path":"objects/obj_lasso/obj_lasso.yy",},
+    {"name":"obj_player_arm","order":5,"path":"objects/obj_player_arm/obj_player_arm.yy",},
+    {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
+    {"name":"obj_projectile_parent","order":10,"path":"objects/obj_projectile_parent/obj_projectile_parent.yy",},
+    {"name":"obj_temp_effect","order":6,"path":"objects/obj_temp_effect/obj_temp_effect.yy",},
+    {"name":"Shooting","order":1,"path":"scripts/Shooting/Shooting.yy",},
+    {"name":"spr_bg_test_canyon","order":7,"path":"sprites/spr_bg_test_canyon/spr_bg_test_canyon.yy",},
+    {"name":"spr_bullet","order":5,"path":"sprites/spr_bullet/spr_bullet.yy",},
+    {"name":"spr_gun_arm","order":2,"path":"sprites/spr_gun_arm/spr_gun_arm.yy",},
+    {"name":"spr_gun_spark","order":4,"path":"sprites/spr_gun_spark/spr_gun_spark.yy",},
+    {"name":"spr_lasso_arm","order":3,"path":"sprites/spr_lasso_arm/spr_lasso_arm.yy",},
+    {"name":"spr_player_placeholder","order":1,"path":"sprites/spr_player_placeholder/spr_player_placeholder.yy",},
+    {"name":"spr_reticle","order":6,"path":"sprites/spr_reticle/spr_reticle.yy",},
+  ],
+}
