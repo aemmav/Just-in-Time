@@ -2,9 +2,6 @@
 **Hoohacks Hackathon Project:**
 
 Team members:
-Emma Avetissian
-Andy Valerio Montero
-Jenna Gould
-Srijan Kalla
+Emma Avetissian, Andy Valerio Montero, Jenna Gould, Srijan Kalla
 
 
