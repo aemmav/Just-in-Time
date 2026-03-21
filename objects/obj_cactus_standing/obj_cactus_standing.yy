@@ -10,8 +10,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_hookpoint",
-    "path":"objects/obj_hookpoint/obj_hookpoint.yy",
+    "name":"obj_player_collision_parent",
+    "path":"objects/obj_player_collision_parent/obj_player_collision_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
