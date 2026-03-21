@@ -1,0 +1,7 @@
+timer += 1;
+
+if (timer >= (60)*3) {
+    y -= 32;   // move up 32 pixels
+	image_yscale += 32;
+    timer = 0;
+}
