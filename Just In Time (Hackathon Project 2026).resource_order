@@ -28,8 +28,6 @@
     {"name":"spr_lasso_arm","order":3,"path":"sprites/spr_lasso_arm/spr_lasso_arm.yy",},
     {"name":"spr_player_placeholder","order":1,"path":"sprites/spr_player_placeholder/spr_player_placeholder.yy",},
     {"name":"spr_reticle","order":6,"path":"sprites/spr_reticle/spr_reticle.yy",},
-    {"name":"spr_rock_hookable","order":7,"path":"sprites/spr_rock_hookable/spr_rock_hookable.yy",},
-    {"name":"spr_temp_enemy","order":6,"path":"sprites/spr_temp_enemy/spr_temp_enemy.yy",},
     {"name":"spr_water","order":8,"path":"sprites/spr_water/spr_water.yy",},
   ],
 }
