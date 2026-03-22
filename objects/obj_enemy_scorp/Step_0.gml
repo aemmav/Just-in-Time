@@ -72,7 +72,7 @@ if (instance_exists(obj_player)) {
 	}
 }
 
-if (hsp != 0) {
+if (hsp != 0 && !audio_is_playing(scorpion_scuttle)) {
 	audio_play_sound(scorpion_scuttle,10,false)
 }
 
