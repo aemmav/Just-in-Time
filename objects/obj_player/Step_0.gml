@@ -12,14 +12,30 @@ key_dash = keyboard_check_pressed(vk_shift);
 key_reset = keyboard_check_pressed(ord("R"));
 var _key_jump_release = keyboard_check_released(vk_space)
 
-animAddAnim("IDLE", anim_direction, image_yscale, 1, 1, 2)
-animAddAnim("FREE_FALLING", anim_direction, image_yscale, 1, 0, 1)
-animAddAnim("JUMPING", anim_direction, image_yscale, 1, 1, 8)
+animAddAnim("IDLE", anim_direction, image_yscale, 1, 2, 3)
+animAddAnim("FREE_FALLING", anim_direction, image_yscale, 1, 6, 7)
+animAddChainedAnim("JUMPING", anim_direction, image_yscale, 1, 4, 6, 0, "FREE_FALLING")
 animAddAnim("SLIDING", anim_direction, image_yscale, 1, 10, 11)
-animAddChainedAnim("SLIDING_INIT", anim_direction, image_yscale, 1, 8, 10, 0, "SLIDING")
-animAddAnim("PARRY", anim_direction, image_yscale, 1, 11, 19)
+animAddChainedAnim("SLIDING_INIT", anim_direction, image_yscale, 1, 10, 11, 0, "SLIDING")
+animAddChainedAnim("PARRY", anim_direction, image_yscale, 1, 14, 17, 0, "WALKING")
 animAddAnim("WALKING", anim_direction, image_yscale, 1, 22, 25)
 animAddChainedAnim("WALKING_INIT", anim_direction, image_yscale, 1, 19, 22, 0, "WALKING")
+
+
+
+var _key_parry = mouse_check_button_pressed(mb_right)
+
+if(_key_parry){
+
+
+
+animSet("PARRY")
+is_parrying = true
+
+}
+
+
+if(animGet() != "PARRY") is_parrying = false
 
 
 if (!(_key_left && _key_right)) {
@@ -80,8 +96,22 @@ if (wall_jump_delay == 0 && !is_grappling && !is_stun_locked) {
         hsp = Approach(hsp, 0, _fric_approach);
 		}
     }
-
-
+	
+	if(!is_parrying){
+	
+	if(on_ground){
+	
+	
+	if(_dir != 0){
+		
+		
+		animSet("WALKING")
+		
+	}
+	else animSet("IDLE")
+	
+	}
+	}
 
 
     if (vsp > 0 && !on_ground)
@@ -218,10 +248,11 @@ if (on_wall != 0) && (!on_ground) && (_key_jump || early_jump_frames && !is_lock
 	jumped_this_airtime = true
 	
 	
+	animSet("JUMPING")
+	
     vsp = vsp_wjump;
 
 
-	
 	
     hsp_frac = 0;
     vsp_frac = 0;
@@ -241,9 +272,22 @@ if (on_wall != 0) && (vsp > 0) && (!stomping) {
 	jumpbuffer = 0;
     _grv_final = grv_wall;
     _vsp_max_final = vsp_max_wall;
-	animSet("SLIDING")
+	
 }
 
+if(on_wall) animSet("SLIDING")
+else
+{
+	
+	if(!on_ground){
+		
+	
+	if(animGet() != "JUMPING" && !is_parrying) animSet("FREE_FALLING")
+	
+		
+	}
+	
+}
 
 // hold jump to jump higher
 if (!_key_jump_hold && (jump_frames) || ((!key_slide && !_key_jump_hold) && bounce_frames))//(vsp < 0) && (!(_key_jump_hold && jump_frames) && !(bounce_frames && key_slide) && !on_ground)  
@@ -287,10 +331,14 @@ if (jumpbuffer > 0) {
         jumpbuffer = 0;
 		if(bounce_frames)
 		{
+			animSet("JUMPING")	
 			vsp = vsp_bounce_max;
 		}
 		else
 		{
+			
+			
+		animSet("JUMPING")	
         vsp = vsp_jump; // if SETTING speed, clear fractional speed
 		}
 		
@@ -334,7 +382,7 @@ if (place_meeting(x + hsp, y, obj_wall)) {
 
 		while(place_meeting(x + hsp, y + 1, obj_wall) ) { y -= 0.5;};
 		
-		fucker_message = "case 1";
+	
 		
 		}
 		else
@@ -349,7 +397,7 @@ if (place_meeting(x + hsp, y, obj_wall)) {
     while (!place_meeting(x + sign(hsp), y, obj_wall)) {
         x += sign(hsp);
     }
-	fucker_message = "case_3";
+
     hsp = 0;
     hsp_frac = 0;
 	
