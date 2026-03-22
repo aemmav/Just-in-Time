@@ -424,4 +424,23 @@ if(hp <= 0){
 }
 
 
+on_ground_cactus = place_meeting(x, y+1, obj_cactus_standing)
+on_wall_cactus = (place_meeting(x + (hsp) + 1, y, obj_cactus_standing) || place_meeting(x + (hsp) - 1, y, obj_cactus_standing))
+
+if(on_ground_cactus && iframes==0){
+	is_stun_locked = true
+	alarm[2] = 10
+	hp--
+	iframes = iframes_max
+	hsp = choose(-4,4)
+	vsp = -5
+}
+if(on_wall_cactus && iframes==0){
+	is_stun_locked = true
+	alarm[2] = 10
+	hp--
+	iframes = iframes_max
+	hsp = -1*anim_dir*4
+}
+
 	

@@ -110,5 +110,5 @@ key_dash = keyboard_check_pressed(vk_shift);
 key_reset = keyboard_check_pressed(ord("R"));
 key_die = keyboard_check_pressed(ord("G"));
 iframes = 0
-iframes_max = 5
+iframes_max = 60
 hp = 3
