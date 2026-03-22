@@ -43,6 +43,7 @@
     {"id":{"name":"obj_temp_effect","path":"objects/obj_temp_effect/obj_temp_effect.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"obj_water","path":"objects/obj_water/obj_water.yy",},},
+    {"id":{"name":"testinglevel","path":"rooms/testinglevel/testinglevel.yy",},},
     {"id":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
     {"id":{"name":"tutorial_level1","path":"rooms/tutorial_level1/tutorial_level1.yy",},},
     {"id":{"name":"Approach","path":"scripts/Approach/Approach.yy",},},
@@ -63,6 +64,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"testinglevel","path":"rooms/testinglevel/testinglevel.yy",},},
     {"roomId":{"name":"tutorial_level1","path":"rooms/tutorial_level1/tutorial_level1.yy",},},
     {"roomId":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
   ],
