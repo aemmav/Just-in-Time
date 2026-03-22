@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_wall",
+  "%Name":"obj_cactus_standing",
   "eventList":[],
   "managed":true,
-  "name":"obj_wall",
+  "name":"obj_cactus_standing",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_cactus_standing",
+    "path":"sprites/spr_cactus_standing/spr_cactus_standing.yy",
   },
   "spriteMaskId":null,
   "visible":true,

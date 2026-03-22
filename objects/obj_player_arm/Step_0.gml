@@ -1,3 +1,6 @@
+
+if(instance_exists(obj_aim)) 
+{ 
 image_angle = point_direction(x,y,mouse_x, mouse_y);
 if(instance_exists(obj_aim)) 
 { 
@@ -143,6 +146,8 @@ _gun_effect.image_angle = point_dir
 
 _gun_effect.hsp = obj_player.hsp
 _gun_effect.vsp = obj_player.vsp
+
+}
 	
 }
 }

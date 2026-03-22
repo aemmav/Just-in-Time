@@ -1,24 +1,20 @@
 {
   "$GMObject":"",
-<<<<<<<< HEAD:objects/obj_projectile_parent/obj_projectile_parent.yy
-  "%Name":"obj_projectile_parent",
-  "eventList":[],
-========
-  "%Name":"obj_enemy_fish",
+  "%Name":"obj_enemy_scorp",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
->>>>>>>> a7b9cd259e6dff4d004424d87f79caefc1ec5f27:objects/obj_enemy_fish/obj_enemy_fish.yy
   "managed":true,
-  "name":"obj_projectile_parent",
+  "name":"obj_enemy_scorp",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_enemy_parent",
+    "path":"objects/obj_enemy_parent/obj_enemy_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -36,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_temp_enemy",
+    "path":"sprites/spr_temp_enemy/spr_temp_enemy.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
