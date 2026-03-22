@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"scorpion_scuttle",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":7.4187756,
+  "exportDir":"",
+  "name":"scorpion_scuttle",
+  "parent":{
+    "name":"Sound_Files",
+    "path":"folders/Sound_Files.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"scorpion_scuttle.mp3",
+  "volume":1.0,
+}

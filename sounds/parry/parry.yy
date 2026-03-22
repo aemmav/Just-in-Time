@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"parry",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.1755102,
+  "exportDir":"",
+  "name":"parry",
+  "parent":{
+    "name":"Sound_Files",
+    "path":"folders/Sound_Files.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"parry.mp3",
+  "volume":1.0,
+}
