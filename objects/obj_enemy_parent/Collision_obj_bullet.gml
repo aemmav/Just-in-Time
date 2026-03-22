@@ -1,7 +1,7 @@
 
 var _bullet = other
 
-if(!_bullet.belongs_to_enemy && !iframes){
+if(!_bullet.belongs_to_enemy && (iframes == 0)){
 
 hp -= _bullet.dmg
 _temphsp = hsp

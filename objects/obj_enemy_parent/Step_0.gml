@@ -5,7 +5,10 @@ if(hp <= 0){
 	instance_destroy() // IT DIED	
 }
 
-if(iframes) iframes--
+if(iframes != 0) {
+	iframes--
+}
+
 
 if (stunned) {
 	// Lerp is a very funny word

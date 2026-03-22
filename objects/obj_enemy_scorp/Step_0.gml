@@ -22,9 +22,10 @@ if (instance_exists(obj_player)) {
 	if (place_meeting(x+hsp, y, obj_solid_collision_parent) || place_meeting(x+hsp-32, y, obj_solid_collision_parent)) {
 		 hsp *= -1
 		 _temphsp *= -1
+		 // temphsp is for remembering the speed you were at before getting stunned
 		 image_xscale *= -1
 		 if (image_xscale > 0) {
-			 x -= 32
+			 x -= 32 // Corrects for the movement caused by flipping the image
 		 }
 		 else {
 			 x += 32
