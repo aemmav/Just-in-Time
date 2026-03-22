@@ -5,67 +5,38 @@ if (place_meeting(x + hsp, y, obj_wall)) {
 	
 	if(!place_meeting(x + hsp, y - abs(hsp) -1 , obj_wall))
 	{
-		
-
 		while(place_meeting(x + hsp, y + 1, obj_wall) ) { y -= 0.5;};
-		
-		
 	}
 	
 	else
 	{
 	
-    while (!place_meeting(x + sign(hsp), y, obj_wall)) {
+		while (!place_meeting(x + sign(hsp), y, obj_wall)) {
         x += sign(hsp);
-    }
+		}
 
-    hsp = 0;
-  
-	
+		hsp = 0;
 	}
-	}
-
-	
+}
 	
 //} 
 
 // all of these used to check obj_wall
-
-
-
-
 //else {
 
-    
         x += hsp
-	
-		
-		
 //}
 
 if (place_meeting(x, y + vsp, obj_wall)) {
     var _onepixel = sign(vsp);
-	
-	
-	
     while (!place_meeting(x, y + _onepixel, obj_wall))
 	{
 		
 	y += _onepixel;
 	}
-	
-	
-	
-	
-	
+
     vsp = 0;
-  
-	
-	
-	
 } 
-
-
 y += vsp
 
 if (instance_exists(obj_player)) { // Check if player is in room
@@ -76,6 +47,13 @@ if (instance_exists(obj_player)) { // Check if player is in room
 	if place_meeting(x+hsp, y, obj_solid_collision_parent) {
 		// if it runs into a wall, it goes the other way
 		hsp *= -1
+		image_xscale *= -1
+		 if (image_xscale > 0) {
+			 x -= 32
+		 }
+		 else {
+			 x += 32
+		 }
 	}
 	
 	// while the fish is in the air, gravity applies
@@ -118,39 +96,15 @@ if (instance_exists(obj_player)) { // Check if player is in room
 		//show_message(vsp)
 		// resets the cooldown so the fish doesn't jump again right away
 		cooldown = cooldown_max
-		
-    }
-			
-			
-		
-			
-			
-			
-			
+    }	
 		if(my_water == 0) {
-		
-		
 		is_in_water = false
-		
-		
-		
 		}
 		else 
 		{
 			y = my_water.y
-	
-	
-		
-	
-		cooldown--
-
-		
-		vsp = 0;
+			cooldown--
+			vsp = 0;
 		}
-		
-		
-		
 	}
-
-
 }

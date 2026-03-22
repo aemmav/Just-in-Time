@@ -9,6 +9,13 @@ cooldown--
 if (instance_exists(obj_player)) {
 	if (place_meeting(x+hsp, y, obj_solid_collision_parent) || place_meeting(x+hsp-32, y, obj_solid_collision_parent)) {
 		 hsp *= -1
+		 image_xscale *= -1
+		 if (image_xscale > 0) {
+			 x -= 32
+		 }
+		 else {
+			 x += 32
+		 }
 	}
 
 
