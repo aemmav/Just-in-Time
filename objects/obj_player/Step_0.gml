@@ -54,8 +54,6 @@ if (wall_jump_delay == 0 && !is_grappling && !is_stun_locked) {
 		
 		
 		
-		
-		
 		}
 		else
 		{
@@ -455,5 +453,6 @@ if (image_index==23 || image_index == 25) {
 	p = random_range(0.9, 1.1)
 	audio_play_sound(walking, 10, false, 1, p)
 }
+audio_listener_position(x,y,0)
 
 animStep()	
