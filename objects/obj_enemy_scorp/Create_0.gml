@@ -11,7 +11,7 @@ shoot_cooldown = 15
 
 anim_direction = 1
 
-animAddAnim("IDLE", anim_direction, image_yscale, 1, 7, 9)
+animAddAnimation("IDLE", anim_direction, image_yscale, 1, 7, 9)
 
 
 animSet("IDLE")

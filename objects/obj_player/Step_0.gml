@@ -241,6 +241,7 @@ if (on_wall != 0) && (vsp > 0) && (!stomping) {
 	jumpbuffer = 0;
     _grv_final = grv_wall;
     _vsp_max_final = vsp_max_wall;
+	animSet("SLIDING")
 }
 
 
@@ -294,10 +295,9 @@ if (jumpbuffer > 0) {
 		}
 		
 		jumped_this_airtime = true
-	
 		
 		
-		
+
 		vsp_frac = 0;
 		jump_frames = jump_frame_max
     }
@@ -413,7 +413,6 @@ on_wall = (place_meeting(x + (hsp) + 1, y, obj_wall) || place_meeting(x + (hsp) 
 
 if(on_ground){
 	
-	
 	jumpbuffer = 6
 	
 }
@@ -445,10 +444,6 @@ if(on_wall_cactus && iframes==0){
 	hp--
 	iframes = iframes_max
 	hsp = -1*anim_dir*4
-}
-
-if(place_meeting(x, y+1, obj_water)){
-	room_restart()
 }
 
 animStep()	
