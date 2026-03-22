@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"Tilesets","order":5,"path":"folders/Tilesets.yy",},
     {"name":"Objects","order":3,"path":"folders/Objects.yy",},
     {"name":"Rooms","order":1,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
@@ -8,6 +9,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_aim","order":9,"path":"objects/obj_aim/obj_aim.yy",},
     {"name":"obj_bullet","order":7,"path":"objects/obj_bullet/obj_bullet.yy",},
+    {"name":"obj_camera","order":12,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"obj_controller","order":4,"path":"objects/obj_controller/obj_controller.yy",},
     {"name":"obj_dotted_line","order":11,"path":"objects/obj_dotted_line/obj_dotted_line.yy",},
     {"name":"obj_gun_effect","order":8,"path":"objects/obj_gun_effect/obj_gun_effect.yy",},
@@ -21,6 +23,7 @@
     {"name":"spr_bg_test_canyon","order":7,"path":"sprites/spr_bg_test_canyon/spr_bg_test_canyon.yy",},
     {"name":"spr_bullet","order":5,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"spr_dotted_line","order":10,"path":"sprites/spr_dotted_line/spr_dotted_line.yy",},
+    {"name":"spr_gun_arm_OLD","order":12,"path":"sprites/spr_gun_arm_OLD/spr_gun_arm_OLD.yy",},
     {"name":"spr_gun_arm","order":2,"path":"sprites/spr_gun_arm/spr_gun_arm.yy",},
     {"name":"spr_gun_spark","order":4,"path":"sprites/spr_gun_spark/spr_gun_spark.yy",},
     {"name":"spr_hookpoint","order":8,"path":"sprites/spr_hookpoint/spr_hookpoint.yy",},
@@ -28,5 +31,6 @@
     {"name":"spr_lasso","order":9,"path":"sprites/spr_lasso/spr_lasso.yy",},
     {"name":"spr_player_placeholder","order":1,"path":"sprites/spr_player_placeholder/spr_player_placeholder.yy",},
     {"name":"spr_reticle","order":6,"path":"sprites/spr_reticle/spr_reticle.yy",},
+    {"name":"spr_ts_temp_block","order":11,"path":"sprites/spr_ts_temp_block/spr_ts_temp_block.yy",},
   ],
 }

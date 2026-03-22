@@ -5,3 +5,7 @@ vsp = 0
 is_spinning = false 
 rot_accel = 1
 rot_speed = 0
+
+
+afterimage_timer = 0
+afterimage_timer_max = 2
