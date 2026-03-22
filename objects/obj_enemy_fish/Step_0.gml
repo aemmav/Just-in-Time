@@ -47,6 +47,7 @@ if (instance_exists(obj_player)) { // Check if player is in room
 	if place_meeting(x+hsp, y, obj_solid_collision_parent) {
 		// if it runs into a wall, it goes the other way
 		hsp *= -1
+		_temphsp *= -1
 		image_xscale *= -1
 		 if (image_xscale > 0) {
 			 x -= 32
@@ -68,17 +69,11 @@ if (instance_exists(obj_player)) { // Check if player is in room
 		
 		hsp = sign(hsp)*base_hsp
 		is_in_water = true
-		
-		
-		
-		
+	
 		}
 		
 	}
 	else{
-		
-		
-		
 		// checks if the player is above the fish in a radius between 80 and 100 degrees
 	if(pdir > 45 && pdir < 135 && cooldown <= 0 && pdis < 100 && collision_line(x, y, x, y-100, obj_player, false, true) && !collision_line(x, y, x, y-100, obj_wall, false, true) && is_in_water ) { 
 		
