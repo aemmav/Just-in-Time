@@ -32,6 +32,7 @@
     {"id":{"name":"obj_enemy_collision","path":"objects/obj_enemy_collision/obj_enemy_collision.yy",},},
     {"id":{"name":"obj_enemy_fish","path":"objects/obj_enemy_fish/obj_enemy_fish.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
+    {"id":{"name":"obj_enemy_scorp","path":"objects/obj_enemy_scorp/obj_enemy_scorp.yy",},},
     {"id":{"name":"obj_gun_effect","path":"objects/obj_gun_effect/obj_gun_effect.yy",},},
     {"id":{"name":"obj_hookpoint","path":"objects/obj_hookpoint/obj_hookpoint.yy",},},
     {"id":{"name":"obj_lasso","path":"objects/obj_lasso/obj_lasso.yy",},},
@@ -69,8 +70,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
     {"roomId":{"name":"testinglevel","path":"rooms/testinglevel/testinglevel.yy",},},
+    {"roomId":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
     {"roomId":{"name":"tutorial_level1","path":"rooms/tutorial_level1/tutorial_level1.yy",},},
   ],
   "templateType":"game",

@@ -12,7 +12,6 @@
     {"name":"obj_enemy_collision","order":16,"path":"objects/obj_enemy_collision/obj_enemy_collision.yy",},
     {"name":"obj_enemy_fish","order":12,"path":"objects/obj_enemy_fish/obj_enemy_fish.yy",},
     {"name":"obj_enemy_parent","order":9,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
-    {"name":"obj_enemy_scorp","order":10,"path":"objects/obj_enemy_scorp/obj_enemy_scorp.yy",},
     {"name":"obj_gun_effect","order":8,"path":"objects/obj_gun_effect/obj_gun_effect.yy",},
     {"name":"obj_hookpoint","order":2,"path":"objects/obj_hookpoint/obj_hookpoint.yy",},
     {"name":"obj_lasso","order":3,"path":"objects/obj_lasso/obj_lasso.yy",},
