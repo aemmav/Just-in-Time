@@ -75,8 +75,6 @@ dash_indicator_overlay_frames_max = 20
 
 
 
-fuck = 0;
-fucker_message = "";
 
 grv = 0.3; // 0.3
 grv_wall = 0.1;
@@ -111,3 +109,8 @@ key_slide_press = keyboard_check_pressed(vk_control);
 key_dash = keyboard_check_pressed(vk_shift);
 key_reset = keyboard_check_pressed(ord("R"));
 key_die = keyboard_check_pressed(ord("G"));
+
+
+iframes = 0
+iframes_max = 5
+hp = 3

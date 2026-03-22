@@ -1,5 +1,5 @@
 event_inherited()
 
 cooldown_max = (60)*1.5
-cooldown = 0
+cooldown = cooldown_max
 hp = 2

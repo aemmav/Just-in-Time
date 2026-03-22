@@ -414,6 +414,14 @@ if(on_ground){
 	
 }
 
+if(iframes){
+	iframes--	
+}
+
+
+if(hp <= 0){
+	room_restart()	
+}
 
 
 	
