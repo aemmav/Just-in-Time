@@ -54,8 +54,6 @@ if (wall_jump_delay == 0 && !is_grappling && !is_stun_locked) {
 		
 		
 		
-		
-		
 		}
 		else
 		{
@@ -450,5 +448,7 @@ if(on_wall_cactus && iframes==0){
 if(place_meeting(x, y+1, obj_water)){
 	room_restart()	
 }
+
+audio_listener_position(x,y,0)
 
 animStep()	

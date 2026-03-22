@@ -19,6 +19,8 @@ animAddChainedAnim("WALKING_INIT", anim_direction, image_yscale, 1, 19, 22, 0, "
 animSet("IDLE")
 // grapple
 
+audio_listener_orientation(0,1,0,0,0,1)
+
 is_grappling = false
 
 

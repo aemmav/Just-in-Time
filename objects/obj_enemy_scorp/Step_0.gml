@@ -72,4 +72,8 @@ if (instance_exists(obj_player)) {
 	}
 }
 
+if (hsp != 0) {
+	audio_play_sound(scorpion_scuttle,10,false)
+}
+
 animStep()
