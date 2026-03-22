@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"jit local",
+  "%Name":"Just In Time (Hackathon Project 2026)",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -23,7 +23,7 @@
   "MetaData":{
     "IDEVersion":"2024.14.3.217",
   },
-  "name":"jit local",
+  "name":"Just In Time (Hackathon Project 2026)",
   "resources":[
     {"id":{"name":"obj_aim","path":"objects/obj_aim/obj_aim.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
