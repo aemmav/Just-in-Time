@@ -77,6 +77,7 @@
     {"id":{"name":"spr_scorpion","path":"sprites/spr_scorpion/spr_scorpion.yy",},},
     {"id":{"name":"spr_sparkle","path":"sprites/spr_sparkle/spr_sparkle.yy",},},
     {"id":{"name":"spr_temp_enemy","path":"sprites/spr_temp_enemy/spr_temp_enemy.yy",},},
+    {"id":{"name":"spr_title_screen","path":"sprites/spr_title_screen/spr_title_screen.yy",},},
     {"id":{"name":"spr_ts_platform","path":"sprites/spr_ts_platform/spr_ts_platform.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},},
