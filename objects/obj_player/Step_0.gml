@@ -120,6 +120,75 @@ if (wall_jump_delay == 0 && !is_grappling && !is_stun_locked) {
 }
 
 
+
+if(!instance_exists(obj_lasso)) is_grappling = false
+
+if(is_grappling && instance_exists(obj_lasso)){
+	
+//	if(instance_exists(obj_lasso)) {
+	//	instance_destroy(obj_grapple_magnet)
+	//	exit
+//	}
+	
+	if(point_distance(x, y, obj_lasso.x, obj_lasso.y) > 30)
+	{
+		// decrease time if grappling, but make player invincible
+
+		//invincible = 5
+		
+		//hsp = (obj_grapple_magnet.x - x) * 0.1
+		
+		//vsp = (obj_grapple_magnet.y - y) * 0.1
+		
+		// find angle between player and the hook
+		
+		
+		
+		var _costheta = cos(degtorad(point_direction(x,y, obj_lasso.x, obj_lasso.y)))
+		var _sintheta = sin(degtorad(point_direction(x,y, obj_lasso.x, obj_lasso.y)))
+		
+		// weeeee
+		if(obj_lasso.x > x) {
+			if(hsp < 0) hsp = -0.5
+			if(hsp < 12) hsp += _costheta * 0.8
+		//	hsp += 0.75
+		}
+		if(obj_lasso.y > y) {
+			if(vsp < 0) vsp = 0
+			if(vsp < 10) vsp -= _sintheta * 0.8
+		}
+		if(obj_lasso.x < x) {
+			if(hsp > 0) hsp = 0.5
+			if(hsp > -12) hsp +=  _costheta* 0.8
+		}
+		if(obj_lasso.y < y) {
+			if(vsp > 0) vsp = 0
+			if(vsp > -10) vsp -= _sintheta* 0.8
+		}
+		
+		
+		
+		
+		
+	}
+	else{
+	
+	//invincible = 15
+	
+
+	instance_destroy(obj_lasso)	
+
+		
+	}
+	
+
+	
+}
+
+
+
+
+
 if (on_wall != 0) && (!on_ground) && (_key_jump || early_jump_frames && !is_locked && !is_stun_locked) {
 
 	

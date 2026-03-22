@@ -1,0 +1,1 @@
+if(origin == noone) instance_destroy()

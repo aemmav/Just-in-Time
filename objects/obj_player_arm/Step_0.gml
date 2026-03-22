@@ -1,7 +1,7 @@
-
+image_angle = point_direction(x,y,mouse_x, mouse_y);
 if(instance_exists(obj_aim)) 
 { 
-image_angle = point_direction(x,y,mouse_x, mouse_y);
+
 //image_angle += sin(degtorad(pointdir - image_angdle)) * 50;
 point_dir = image_angle
 dir = direction;
@@ -37,13 +37,35 @@ var _gun_spin_button_pressed = keyboard_check_pressed(vk_control)
 
 var _gun_spin_button_released = keyboard_check_released(vk_control)
 
+var _grapple_key = keyboard_check_pressed(ord("Q"))
+var _grapple_held = keyboard_check(ord("Q"))
 
 var _gun_length = 10
 var _x2 = x + lengthdir_x(_gun_length, image_angle)
 var _y2 = y + lengthdir_y(_gun_length, image_angle)
 
 
-
+if(_grapple_key && !obj_player.is_locked){
+	
+	instance_destroy(obj_lasso)
+	var _grapple_hook = instance_create_layer(x + cos(degtorad(image_angle)) * 7, y -sin(degtorad(image_angle)) * 5, "ProjectileLayer", obj_lasso)
+	_grapple_hook.hsp = cos(degtorad(image_angle)) * ( 8 + abs(obj_player.hsp)/1.5)
+	_grapple_hook.vsp = -sin(degtorad(image_angle)) * 8
+	_grapple_hook.image_angle = image_angle
+	
+		
+	}
+	
+	if(instance_exists(obj_lasso)){
+	
+	if(!_grapple_held && !_grapple_key && obj_lasso.obj_latch != 0){
+	
+	if(!obj_player.is_locked) obj_player.is_grappling = true
+	
+	}
+	
+	
+	}
 
 
 
@@ -55,10 +77,10 @@ if(instance_exists(obj_gun_effect) && gun_spin_amt >= gun_spin_max){
 
 
 
-var _bullet = instance_create_layer(_x+ 2 * cos(degtorad(point_dir)), _y - 2 * sin(degtorad(point_dir)), "Collision", obj_bullet)
+var _bullet = instance_create_layer(_x+ 15 * cos(degtorad(point_dir)), _y - 15 * sin(degtorad(point_dir)), "Collision", obj_bullet)
 _bullet.image_angle = point_dir
 _bullet.direction = point_dir
-_bullet.image_xscale = 40
+_bullet.max_size = 30
 
 var _gun_yscale = 1
 
@@ -91,12 +113,12 @@ gun_spin_amt = 0
 }
 
 else{
-var _bullet = instance_create_layer(_x+ 5 * cos(degtorad(point_dir)), _y - 5 * sin(degtorad(point_dir)), "Collision", obj_bullet)
+var _bullet = instance_create_layer(_x+ 15 * cos(degtorad(point_dir)), _y - 15 * sin(degtorad(point_dir)), "Collision", obj_bullet)
 _bullet.image_angle = point_dir
 //_bullet.direction = point_dir
 
 
-_bullet.image_xscale = 30
+_bullet.max_size = 30
 
 var _gun_yscale = 1
 

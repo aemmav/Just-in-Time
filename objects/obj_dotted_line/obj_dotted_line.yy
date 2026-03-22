@@ -1,12 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hookpoint",
+  "%Name":"obj_dotted_line",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_hookpoint",
+  "name":"obj_dotted_line",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_hookpoint",
-    "path":"sprites/spr_hookpoint/spr_hookpoint.yy",
+    "name":"spr_dotted_line",
+    "path":"sprites/spr_dotted_line/spr_dotted_line.yy",
   },
   "spriteMaskId":null,
   "visible":true,
