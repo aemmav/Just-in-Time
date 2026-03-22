@@ -19,6 +19,7 @@
     {"name":"obj_hookpoint","order":2,"path":"objects/obj_hookpoint/obj_hookpoint.yy",},
     {"name":"obj_hp_bar","order":17,"path":"objects/obj_hp_bar/obj_hp_bar.yy",},
     {"name":"obj_lasso","order":3,"path":"objects/obj_lasso/obj_lasso.yy",},
+    {"name":"obj_main_title","order":18,"path":"objects/obj_main_title/obj_main_title.yy",},
     {"name":"obj_player_arm","order":5,"path":"objects/obj_player_arm/obj_player_arm.yy",},
     {"name":"obj_player_collision_parent","order":15,"path":"objects/obj_player_collision_parent/obj_player_collision_parent.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},

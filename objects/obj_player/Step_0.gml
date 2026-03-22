@@ -494,4 +494,8 @@ if(on_wall_cactus && iframes==0){
 	hsp = -1*anim_dir*4
 }
 
+if(place_meeting(x, y+1, obj_water)){
+	room_restart()
+}
+
 animStep()	

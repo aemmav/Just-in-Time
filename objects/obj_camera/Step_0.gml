@@ -8,6 +8,19 @@ halfview_h = camera_get_view_height(view_camera[0])/1.5; // used to be 1.3
 view_w = camera_get_view_width(view_camera[0]) 
 view_h = camera_get_view_height(view_camera[0])
 
+if(instance_exists(obj_main_title)){
+
+following = obj_main_title
+
+}
+
+
+
+if(!instance_exists(obj_main_title) && instance_exists(obj_player))
+{
+	
+	following = obj_player
+}
 		
 	if(global.cheat_mode){
 	var _wheel = mouse_wheel_down() - mouse_wheel_up()

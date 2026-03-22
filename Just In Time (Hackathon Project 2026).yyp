@@ -39,6 +39,7 @@
     {"id":{"name":"obj_hookpoint","path":"objects/obj_hookpoint/obj_hookpoint.yy",},},
     {"id":{"name":"obj_hp_bar","path":"objects/obj_hp_bar/obj_hp_bar.yy",},},
     {"id":{"name":"obj_lasso","path":"objects/obj_lasso/obj_lasso.yy",},},
+    {"id":{"name":"obj_main_title","path":"objects/obj_main_title/obj_main_title.yy",},},
     {"id":{"name":"obj_player_arm","path":"objects/obj_player_arm/obj_player_arm.yy",},},
     {"id":{"name":"obj_player_collision_parent","path":"objects/obj_player_collision_parent/obj_player_collision_parent.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
