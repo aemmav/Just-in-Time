@@ -1,16 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_projectile_parent",
+  "%Name":"obj_rock_hookable",
   "eventList":[],
-
   "managed":true,
-  "name":"obj_projectile_parent",
+  "name":"obj_rock_hookable",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_hookpoint",
+    "path":"objects/obj_hookpoint/obj_hookpoint.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_rock_hookable",
+    "path":"sprites/spr_rock_hookable/spr_rock_hookable.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
