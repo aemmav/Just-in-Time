@@ -451,4 +451,9 @@ if(place_meeting(x, y+1, obj_water)){
 	room_restart()	
 }
 
+if (image_index==23 || image_index == 25) {
+	p = random_range(0.9, 1.1)
+	audio_play_sound(walking, 10, false, 1, p)
+}
+
 animStep()	
