@@ -481,6 +481,7 @@ if(on_ground_cactus && iframes==0){
 	is_stun_locked = true
 	alarm[2] = 10
 	hp--
+	audio_play_sound(oof, 9, false)
 	iframes = iframes_max
 	hsp = choose(-4,4)
 	vsp = -5
@@ -489,6 +490,7 @@ if(on_wall_cactus && iframes==0){
 	is_stun_locked = true
 	alarm[2] = 10
 	hp--
+	audio_play_sound(oof, 9, false)
 	iframes = iframes_max
 	hsp = -1*anim_dir*4
 }
