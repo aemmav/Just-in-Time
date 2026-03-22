@@ -60,6 +60,7 @@
     {"id":{"name":"chomp","path":"sounds/chomp/chomp.yy",},},
     {"id":{"name":"click","path":"sounds/click/click.yy",},},
     {"id":{"name":"gun_shot","path":"sounds/gun_shot/gun_shot.yy",},},
+    {"id":{"name":"Harmonica","path":"sounds/Harmonica/Harmonica.yy",},},
     {"id":{"name":"oof","path":"sounds/oof/oof.yy",},},
     {"id":{"name":"parry","path":"sounds/parry/parry.yy",},},
     {"id":{"name":"scorpion_scuttle","path":"sounds/scorpion_scuttle/scorpion_scuttle.yy",},},

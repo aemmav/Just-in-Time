@@ -34,6 +34,7 @@
     {"name":"chomp","order":1,"path":"sounds/chomp/chomp.yy",},
     {"name":"click","order":2,"path":"sounds/click/click.yy",},
     {"name":"gun_shot","order":3,"path":"sounds/gun_shot/gun_shot.yy",},
+    {"name":"Harmonica","order":10,"path":"sounds/Harmonica/Harmonica.yy",},
     {"name":"oof","order":4,"path":"sounds/oof/oof.yy",},
     {"name":"parry","order":5,"path":"sounds/parry/parry.yy",},
     {"name":"scorpion_scuttle","order":6,"path":"sounds/scorpion_scuttle/scorpion_scuttle.yy",},
