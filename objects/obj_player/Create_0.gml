@@ -22,7 +22,6 @@ animSet("IDLE")
 is_grappling = false
 
 
-is_parrying = false
 
 hsp = 0; // this breaks when its above 6. NOT ANYMORE!!
 vsp = 0;
