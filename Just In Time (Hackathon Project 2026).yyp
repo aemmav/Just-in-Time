@@ -80,7 +80,6 @@
     {"id":{"name":"spr_ts_platform","path":"sprites/spr_ts_platform/spr_ts_platform.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},},
-    {"id":{"name":"Sprite27","path":"sprites/Sprite27/Sprite27.yy",},},
     {"id":{"name":"ts_temp_blocks","path":"tilesets/ts_temp_blocks/ts_temp_blocks.yy",},},
   ],
   "resourceType":"GMProject",
