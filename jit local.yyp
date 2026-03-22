@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"Tilesets","folderPath":"folders/Tilesets.yy","name":"Tilesets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -26,6 +27,7 @@
   "resources":[
     {"id":{"name":"obj_aim","path":"objects/obj_aim/obj_aim.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_dotted_line","path":"objects/obj_dotted_line/obj_dotted_line.yy",},},
     {"id":{"name":"obj_gun_effect","path":"objects/obj_gun_effect/obj_gun_effect.yy",},},
@@ -42,6 +44,7 @@
     {"id":{"name":"spr_bg_test_canyon","path":"sprites/spr_bg_test_canyon/spr_bg_test_canyon.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_dotted_line","path":"sprites/spr_dotted_line/spr_dotted_line.yy",},},
+    {"id":{"name":"spr_gun_arm_OLD","path":"sprites/spr_gun_arm_OLD/spr_gun_arm_OLD.yy",},},
     {"id":{"name":"spr_gun_arm","path":"sprites/spr_gun_arm/spr_gun_arm.yy",},},
     {"id":{"name":"spr_gun_spark","path":"sprites/spr_gun_spark/spr_gun_spark.yy",},},
     {"id":{"name":"spr_hookpoint","path":"sprites/spr_hookpoint/spr_hookpoint.yy",},},
@@ -49,7 +52,9 @@
     {"id":{"name":"spr_lasso","path":"sprites/spr_lasso/spr_lasso.yy",},},
     {"id":{"name":"spr_player_placeholder","path":"sprites/spr_player_placeholder/spr_player_placeholder.yy",},},
     {"id":{"name":"spr_reticle","path":"sprites/spr_reticle/spr_reticle.yy",},},
+    {"id":{"name":"spr_ts_temp_block","path":"sprites/spr_ts_temp_block/spr_ts_temp_block.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"ts_temp_blocks","path":"tilesets/ts_temp_blocks/ts_temp_blocks.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
