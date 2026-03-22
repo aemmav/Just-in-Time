@@ -50,7 +50,7 @@
     {"name":"spr_scorpion","order":18,"path":"sprites/spr_scorpion/spr_scorpion.yy",},
     {"name":"spr_sparkle","order":17,"path":"sprites/spr_sparkle/spr_sparkle.yy",},
     {"name":"spr_temp_enemy","order":3,"path":"sprites/spr_temp_enemy/spr_temp_enemy.yy",},
-    {"name":"spr_ts_temp_block","order":15,"path":"sprites/spr_ts_temp_block/spr_ts_temp_block.yy",},
+    {"name":"spr_ts_platform","order":15,"path":"sprites/spr_ts_platform/spr_ts_platform.yy",},
     {"name":"spr_water","order":13,"path":"sprites/spr_water/spr_water.yy",},
   ],
 }
