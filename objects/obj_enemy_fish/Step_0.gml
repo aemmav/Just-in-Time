@@ -101,6 +101,7 @@ if (instance_exists(obj_player)) { // Check if player is in room
 		
 		hsp = sign(hsp)*base_hsp
 		is_in_water = true
+		audio_play_sound(water_splash,14,false)
 	
 		}
 		
