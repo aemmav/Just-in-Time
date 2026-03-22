@@ -8,7 +8,7 @@ hp = 0
 hsp_fric_ground = 0.1
 
 iframes = 0
-iframes_max = 5
+iframes_max = 15
 
 dmg = 1
 
