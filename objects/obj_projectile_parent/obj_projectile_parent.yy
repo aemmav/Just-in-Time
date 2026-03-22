@@ -2,7 +2,6 @@
   "$GMObject":"",
   "%Name":"obj_projectile_parent",
   "eventList":[],
-
   "managed":true,
   "name":"obj_projectile_parent",
   "overriddenProperties":[],

@@ -1,6 +1,3 @@
-
-if(instance_exists(obj_aim)) 
-{ 
 image_angle = point_direction(x,y,mouse_x, mouse_y);
 if(instance_exists(obj_aim)) 
 { 
@@ -51,7 +48,7 @@ var _y2 = y + lengthdir_y(_gun_length, image_angle)
 if(_grapple_key && !obj_player.is_locked){
 	
 	instance_destroy(obj_lasso)
-	var _grapple_hook = instance_create_layer(x + cos(degtorad(image_angle)) * 7, y -sin(degtorad(image_angle)) * 5, "ProjectileLayer", obj_lasso)
+	var _grapple_hook = instance_create_layer(x + cos(degtorad(image_angle)) * 9, y -sin(degtorad(image_angle)) * 9, "ProjectileLayer", obj_lasso)
 	_grapple_hook.hsp = cos(degtorad(image_angle)) * ( 8 + abs(obj_player.hsp)/1.5)
 	_grapple_hook.vsp = -sin(degtorad(image_angle)) * 8
 	_grapple_hook.image_angle = image_angle
@@ -146,8 +143,6 @@ _gun_effect.image_angle = point_dir
 
 _gun_effect.hsp = obj_player.hsp
 _gun_effect.vsp = obj_player.vsp
-
-}
 	
 }
 }

@@ -8,6 +8,7 @@ place_meet_y = 0
 belongs_to_enemy = false;
 
 dmg = 1
+
 has_init = true
 destroy_imm = false
 if(place_meeting(x, y, obj_wall)) {
