@@ -3,6 +3,7 @@ event_inherited();
 jump_speed = 9
 cooldown_max = (60)*5
 cooldown = 0
+hp =2
 
 base_hsp = 3
 is_in_water = false;

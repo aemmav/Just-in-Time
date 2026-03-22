@@ -1,3 +1,5 @@
+event_inherited()
+
 if (place_meeting(x + hsp, y, obj_wall)) {
 	
 	
