@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temp_enemy",
-    "path":"sprites/spr_temp_enemy/spr_temp_enemy.yy",
+    "name":"spr_scorpion",
+    "path":"sprites/spr_scorpion/spr_scorpion.yy",
   },
   "spriteMaskId":null,
   "visible":true,

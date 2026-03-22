@@ -8,13 +8,7 @@ instance_create_layer(x, y, "PlayerLayer", obj_aim)
 anim_direction = 1;
 
 animAddAnim("IDLE", anim_direction, image_yscale, 1, 1, 2)
-animAddAnim("FREE_FALLING", anim_direction, image_yscale, 1, 0, 1)
-animAddAnim("JUMPING", anim_direction, image_yscale, 1, 1, 8)
-animAddAnim("SLIDING", anim_direction, image_yscale, 1, 10, 11)
-animAddChainedAnim("SLIDING_INIT", anim_direction, image_yscale, 1, 8, 10, 0, "SLIDING")
-animAddAnim("PARRY", anim_direction, image_yscale, 1, 11, 19)
-animAddAnim("WALKING", anim_direction, image_yscale, 1, 22, 25)
-animAddChainedAnim("WALKING_INIT", anim_direction, image_yscale, 1, 19, 22, 0, "WALKING")
+
 
 // grapple
 
@@ -122,3 +116,5 @@ key_die = keyboard_check_pressed(ord("G"));
 iframes = 0
 iframes_max = 60
 hp = 3
+
+animSet("IDLE")
