@@ -77,7 +77,7 @@ if(instance_exists(obj_gun_effect) && gun_spin_amt >= gun_spin_max){
 
 
 
-var _bullet = instance_create_layer(_x+ 15 * cos(degtorad(point_dir)), _y - 15 * sin(degtorad(point_dir)), "Collision", obj_bullet)
+var _bullet = instance_create_layer(_x+ 15 * cos(degtorad(point_dir)), _y - 15 * sin(degtorad(point_dir)), "ProjectileLayer", obj_bullet)
 _bullet.image_angle = point_dir
 _bullet.direction = point_dir
 _bullet.max_size = 30
@@ -113,7 +113,7 @@ gun_spin_amt = 0
 }
 
 else{
-var _bullet = instance_create_layer(_x+ 15 * cos(degtorad(point_dir)), _y - 15 * sin(degtorad(point_dir)), "Collision", obj_bullet)
+var _bullet = instance_create_layer(_x+ 15 * cos(degtorad(point_dir)), _y - 15 * sin(degtorad(point_dir)), "ProjectileLayer", obj_bullet)
 _bullet.image_angle = point_dir
 //_bullet.direction = point_dir
 

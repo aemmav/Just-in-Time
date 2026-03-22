@@ -1,4 +1,4 @@
-// SOURCE: versatile animation thing
+// versatile animation thing
 enum animationType
 {
 	looped,

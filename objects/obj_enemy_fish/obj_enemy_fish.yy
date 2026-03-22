@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temp_enemy",
-    "path":"sprites/spr_temp_enemy/spr_temp_enemy.yy",
+    "name":"spr_fish",
+    "path":"sprites/spr_fish/spr_fish.yy",
   },
   "spriteMaskId":null,
   "visible":true,
