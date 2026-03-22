@@ -1,27 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_cactus_standing",
+  "%Name":"spr_canyon_parallax3",
   "bboxMode":0,
-  "bbox_bottom":63,
+  "bbox_bottom":2507,
   "bbox_left":0,
-  "bbox_right":31,
-  "bbox_top":0,
+  "bbox_right":1244,
+  "bbox_top":1315,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"57ae9e49-dc8c-486b-ae17-2042c6d88ccf","name":"57ae9e49-dc8c-486b-ae17-2042c6d88ccf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"49c4596c-c935-456f-996c-37779ebcaad8","name":"49c4596c-c935-456f-996c-37779ebcaad8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":2508,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"51cca7ed-e540-4101-b4b2-f97473022291","blendMode":0,"displayName":"default","isLocked":false,"name":"51cca7ed-e540-4101-b4b2-f97473022291","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"fdc4057e-f5eb-4535-9bb1-7c1be8a2c455","blendMode":0,"displayName":"default","isLocked":false,"name":"fdc4057e-f5eb-4535-9bb1-7c1be8a2c455","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_cactus_standing",
+  "name":"spr_canyon_parallax3",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_cactus_standing",
+    "%Name":"spr_canyon_parallax3",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_cactus_standing",
+    "name":"spr_canyon_parallax3",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"57ae9e49-dc8c-486b-ae17-2042c6d88ccf","path":"sprites/spr_cactus_standing/spr_cactus_standing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"46b7491b-b6ca-4a67-a64e-ca6e91ffa25c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"49c4596c-c935-456f-996c-37779ebcaad8","path":"sprites/spr_canyon_parallax3/spr_canyon_parallax3.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"511d48df-79c5-41a3-9a35-085ee74e98ae","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":32,
+  "width":1245,
 }
