@@ -54,5 +54,6 @@
     {"name":"spr_temp_enemy","order":3,"path":"sprites/spr_temp_enemy/spr_temp_enemy.yy",},
     {"name":"spr_ts_platform","order":15,"path":"sprites/spr_ts_platform/spr_ts_platform.yy",},
     {"name":"spr_water","order":13,"path":"sprites/spr_water/spr_water.yy",},
+    {"name":"Sprite27","order":2,"path":"sprites/Sprite27/Sprite27.yy",},
   ],
 }
