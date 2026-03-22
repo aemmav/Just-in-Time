@@ -12,7 +12,7 @@ Emma Avetissian, Andy Valerio Montero, Jenna Gould, Srijan Kalla
 - Code written in GameMaker Studio by all four members
 - Assets drawn in Pixilart, Piskel, Procreate, Clip Studio Paint, PineTools, and Aseprite by Jenna and Srijan
 
-This is was everyone's first Hackathon!
+This is everyone's first Hackathon!
 - Emma, Jenna, and Andy learned to use GameMaker for the first time
 - Srijan and Andy further developed skills in git and version control!
 
