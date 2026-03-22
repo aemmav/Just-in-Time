@@ -22,6 +22,7 @@
     {"name":"obj_solid_collision_parent","order":14,"path":"objects/obj_solid_collision_parent/obj_solid_collision_parent.yy",},
     {"name":"obj_temp_effect","order":6,"path":"objects/obj_temp_effect/obj_temp_effect.yy",},
     {"name":"obj_water","order":13,"path":"objects/obj_water/obj_water.yy",},
+    {"name":"testinglevel","order":1,"path":"rooms/testinglevel/testinglevel.yy",},
     {"name":"Shooting","order":1,"path":"scripts/Shooting/Shooting.yy",},
     {"name":"spr_bg_test_canyon","order":7,"path":"sprites/spr_bg_test_canyon/spr_bg_test_canyon.yy",},
     {"name":"spr_bullet","order":5,"path":"sprites/spr_bullet/spr_bullet.yy",},
