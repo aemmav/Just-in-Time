@@ -1,8 +1,8 @@
 event_inherited()
 
-animAddAnimation("IDLE", anim_direction, image_yscale, 1, 7, 9)
-animAddAnimation("ATTACKING", anim_direction, image_yscale, 1, 0, 6)
-animAddAnimation("WALKING", anim_direction, image_yscale, 1, 6, 10)
+animAddAnim("IDLE", anim_direction, image_yscale, 1, 7, 9)
+animAddAnim("ATTACKING", anim_direction, image_yscale, 1, 0, 6)
+animAddAnim("WALKING", anim_direction, image_yscale, 1, 6, 10)
 
 if (!isShooting) {
 	x += hsp

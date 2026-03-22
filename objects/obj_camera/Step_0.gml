@@ -146,7 +146,7 @@ switch(mode)
 	cy = following.y - view_h/1.5;
 
 	cx = clamp(cx,0, room_width - view_w + 10);
-	cy = clamp(cy, 0, room_height - view_h + 10);
+	cy = clamp(cy, 0, room_height - view_h - 32);
 
 	
 	
