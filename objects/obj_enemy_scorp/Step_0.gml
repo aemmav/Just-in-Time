@@ -1,7 +1,9 @@
 event_inherited()
 
-x += hsp
-y += vsp
+if (!isShooting) {
+	x += hsp
+	y += vsp
+}
 
 cooldown--
 
@@ -31,14 +33,24 @@ if (instance_exists(obj_player)) {
 			 x += 32
 		 }
 	}
+	// Short delay before shooting
 
 	if(_sees_player && cooldown <= 0 && collision_line(x,y,obj_player.x,obj_player.y-16, obj_player, false,true) &&  !collision_line(x, y, obj_player.x, obj_player.y-5, obj_wall, false, true) && !stunned){
-		var _bullet = instance_create_layer(x, y, "Collision", obj_bullet)
-		_bullet.belongs_to_enemy = true;
-		_bullet.image_angle = pdir
-		_bullet.direction = pdir
-		_bullet.max_size = 30
-		_bullet.speed = 7+abs(hsp)
-		cooldown = cooldown_max
+		if (shoot_cooldown <= 0) {
+			var _bullet = instance_create_layer(x, y, "Collision", obj_bullet)
+			_bullet.belongs_to_enemy = true;
+			_bullet.image_angle = pdir
+			_bullet.direction = pdir
+			_bullet.max_size = 30
+			_bullet.speed = 7+abs(hsp)
+			cooldown = cooldown_max
+			isShooting = false
+			shoot_cooldown = 15
+		}
+		else {
+			isShooting = true
+			shoot_cooldown--
+		}
+		
 	}
 }
