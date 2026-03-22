@@ -1,10 +1,10 @@
 # Just-in-Time
 **Hoohacks Hackathon Project:**
 
-Just in Time (JiT)
+Just in Time (JiT):
 Swing up a canyon and face off against your foes in this action-packed platformer!
 
-JiT is a platformer game that follows a little lizard character who fights for its way out of a flooded canyon, battling against fierce phirannas and scorpions. The goal is to reach the top of the canyon while avoind the water at all costs, managing your health in battles against opponents, and utilizing your movement to traverse difficult terrain.
+JiT is a platformer game that follows a little lizard character who fights for its way out of a flooded canyon, battling against fierce piranhas and scorpions. The goal is to reach the top of the canyon while avoiding the water at all costs, managing your health in battles against opponents, and utilizing your movement to traverse difficult terrain.
 
 Team members:
 Emma Avetissian, Andy Valerio Montero, Jenna Gould, Srijan Kalla
