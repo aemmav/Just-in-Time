@@ -20,4 +20,7 @@ This is everyone's first Hackathon!
 Youtube video link to demo:
 - https://www.youtube.com/watch?v=8_Lx245qu9Y
 
+`main` branch may feature updates as group members continue to work on the project.  
+`original_hackathon_code` branch has only the code that was created during the hackathon!
+
 
